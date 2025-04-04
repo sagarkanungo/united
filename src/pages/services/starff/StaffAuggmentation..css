@@ -1,0 +1,166 @@
+/* ======= CONTAINER ======= */
+.staff-augmentation-container {
+    display: flex;
+    padding: 37px;
+    color: #ffffff;
+    justify-content: space-evenly;
+    margin-top: 160px;
+    min-height: 100vh;
+  }
+  
+  /* ======= TOP SECTION ======= */
+  .staff-top {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 20%;
+  }
+  
+  /* ======= IMAGE SECTION ======= */
+  .staff-image {
+    max-width: 300px;
+  }
+  
+  .staff-image img {
+    width: 100%;
+    height: 60vh;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s;
+  }
+  
+  .staff-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* ======= CARD SECTION ======= */
+  .staff-card {
+    width: 83%;
+    background: #0c1c50;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    transition: all 0.3s;
+  }
+  
+  .staff-card:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.9);
+  }
+  
+  .staff-card h2 {
+    font-size: 36px;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* ======= SERVICE LINKS ======= */
+  .services-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-around;
+  }
+  
+  .services-links a {
+    background: #ffcc00;
+    color: #0c1c50;
+    font-size: 18px;
+    padding: 12px 28px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s;
+    text-align: center;
+    min-width: 160px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .services-links a:hover {
+    background: #e6b800;
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.8);
+  }
+  
+  /* ======= BOTTOM SECTION ======= */
+  .staff-bottom {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 20%;
+  }
+  
+  /* ======= CONTENT SECTION ======= */
+  .staff-content {
+    width: 450px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 18px;
+
+  }
+  
+  .staff-content h2 {
+    font-size: 42px;
+    color: #ffcc00;
+    margin-bottom: 20px;
+  }
+  
+  .staff-content p {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  /* ======= ZIGZAG IMAGE SECTION ======= */
+  .staff-zigzag-image {
+    min-width: 450px;
+  }
+  
+  .staff-zigzag-image img {
+    width: 114%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s;
+  }
+  
+  .staff-zigzag-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* ======= RESPONSIVE DESIGN ======= */
+  @media (max-width: 1200px) {
+    .staff-top, .staff-bottom {
+      flex-direction: column;
+    }
+  
+    .staff-image, .staff-card, .staff-content, .staff-zigzag-image {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .staff-augmentation-container {
+      padding: 30px;
+    }
+  
+    .services-links a {
+      min-width: 140px;
+      padding: 10px 20px;
+    }
+  
+    .staff-card h2 {
+      font-size: 28px;
+    }
+  
+    .staff-content h2 {
+      font-size: 32px;
+    }
+  
+    .staff-content p {
+      font-size: 16px;
+    }
+  }
+  

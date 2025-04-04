@@ -1,0 +1,149 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Background with a glassmorphism effect */
+.home-container {
+    background: url('/src/assets/cyberjet-banner-bg-2.png') no-repeat center/cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-color:  #091650 ;
+    z-index: 1;
+}
+
+/* Header */
+
+
+/* Main Content */
+.content-container-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1380px;
+    width: 100%;
+    margin-top: 150px;
+    padding: 40px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Text Content */
+.text-content {
+    flex: 1;
+    max-width: 40%;
+}
+
+.text-content h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.2);
+    /* animation: floatText 3s infinite alternate ease-in-out; */
+}
+
+.text-content p {
+    font-size: 20px;
+    color: #ffcc00;
+    margin-top: 10px;
+}
+
+/* Image Animation */
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 700px;
+    /* border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.1); */
+}
+.image-container img:hover{
+    animation: bounce 2s infinite alternate ease-in-out;
+
+}
+/* Keyframe Animations */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes floatText {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .header-home {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .nav-links-home {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .content-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-content {
+        max-width: 100%;
+    }
+
+    .image-container img {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-home {
+        padding: 15px;
+    }
+
+    .content-container {
+        margin-top: 120px;
+        padding: 20px;
+    }
+
+    .text-content h1 {
+        font-size: 40px;
+    }
+
+    .image-container img {
+        max-width: 350px;
+    }
+}

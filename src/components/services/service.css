@@ -1,0 +1,117 @@
+/* Main container styling */
+.services-container {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 130px;
+    color: white;
+  }
+  
+  /* Heading styling */
+  .services-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  /* Grid layout */
+  .services-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 835px;
+  }
+  
+  /* Service card styling */
+  .service-card {
+    background: #1e2a78;
+    color: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    z-index: 0;
+    min-height: 300px;
+  }
+  
+  /* Hover effect - Shatter animation */
+  .service-card::before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #f39c12, #e67e22);
+    transition: top 0.4s ease;
+    z-index: -1;
+  }
+  
+  .service-card:hover::before {
+    top: 0;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    color: #091650;
+  }
+  .service-card:hover h3,
+.service-card:hover p {
+  color: #091650;  /* Text color changes on hover */
+}
+  
+  /* Card text */
+  .service-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #d1d1d1;
+  }
+
+  
+
+
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .services-grid {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .service-card {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .services-container {
+      padding: 40px 20px;
+    }
+  
+    .services-heading {
+      font-size: 2.5rem;
+    }
+  
+    .service-card {
+      width: 100%;
+    }
+  }
+  

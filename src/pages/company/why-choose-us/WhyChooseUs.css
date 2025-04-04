@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header Section */
+.why-choose-us-container {
+  background: url("/public/workingteam.jpg") no-repeat center/cover;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.why-choose-us-heading {
+  padding: 60px 0 0;
+  text-align: center;
+}
+
+.why-choose-us-heading h2 {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* --- Trusted IT Expertise Section --- */
+.why-choose-us-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 60px 180px;
+}
+
+.why-choose-us-content {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.why-choose-us-content:hover {
+  transform: translateY(-10px);
+}
+
+.why-choose-us-content h3 {
+  font-size: 2.5rem;
+  color: #ffcc00;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.why-choose-us-content p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: white;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.why-choose-us-description {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-choose-us-description p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: white;
+  text-align: justify;
+  padding: 40px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.why-choose-us-description:hover p {
+  transform: translateY(-10px);
+}
+
+/* --- Image and Content Section --- */
+.why-choose-us-section {
+  display: flex;
+  align-items: stretch; /* Ensures both containers have the same height */
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.why-choose-us-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.why-choose-us-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the full height */
+  transition: transform 0.5s ease;
+}
+
+.why-choose-us-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Mission & Vision Styling --- */
+.why-choose-us-mission,
+.why-choose-us-vision {
+  margin-bottom: 40px;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.why-choose-us-mission:hover,
+.why-choose-us-vision:hover {
+  transform: translateY(-10px);
+}
+
+.why-choose-us-mission h2,
+.why-choose-us-vision h2 {
+  font-size: 2.5rem;
+  color: #ffcc00;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* --- Mission & Vision Shadow Effect --- */
+.why-choose-us-mission h2::after,
+.why-choose-us-vision h2::after {
+  content: attr(data-shadow);
+  position: absolute;
+  left: 0;
+  top: 20px;
+  z-index: -1;
+  font-size: 3rem;
+  color: rgba(128, 128, 128, 0.5);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.why-choose-us-mission h2::after {
+  content: "MISSION";
+}
+
+.why-choose-us-vision h2::after {
+  content: "VISION";
+}
+
+.why-choose-us-mission p,
+.why-choose-us-vision p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: white;
+  text-align: justify;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 992px) {
+  .why-choose-us-content-wrapper,
+  .why-choose-us-section {
+    flex-direction: column;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+
+  .why-choose-us-content,
+  .why-choose-us-description,
+  .why-choose-us-image,
+  .why-choose-us-text {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .why-choose-us-content h3 {
+    font-size: 1.8rem;
+  }
+
+  .why-choose-us-content p,
+  .why-choose-us-mission p,
+  .why-choose-us-vision p {
+    font-size: 1rem;
+  }
+
+  .why-choose-us-mission h2,
+  .why-choose-us-vision h2 {
+    font-size: 2rem;
+  }
+
+  .why-choose-us-mission h2::after,
+  .why-choose-us-vision h2::after {
+    font-size: 2.5rem;
+  }
+}

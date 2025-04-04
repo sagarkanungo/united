@@ -1,0 +1,92 @@
+/* Main container */
+.technologies-container {
+    padding: 64px 130px;
+    color: white;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Header */
+  .tech-heading {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tech-description {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 1.8;
+  }
+  
+  /* Category section */
+  .tech-section {
+    margin-bottom: 60px;
+  }
+  
+  /* Category title */
+  .tech-category-title {
+    font-size: 2rem;
+    color: #4a90e2;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  /* Grid layout */
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+    gap: 30px;
+  }
+  
+  /* Card */
+  .tech-card {
+    background: #fff;
+    color: #091650;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  .tech-card:hover {
+    transform: translateY(-10px);
+    background: #4a90e2;
+    color: white;
+  }
+  
+  /* Logo */
+  .tech-logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 1024px) {
+    .tech-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .technologies-container {
+      padding: 40px 20px;
+    }
+  
+    .tech-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tech-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
