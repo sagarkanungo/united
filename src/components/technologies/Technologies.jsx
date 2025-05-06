@@ -87,7 +87,7 @@ const Technologies = () => {
           <div className="tech-grid">
             {technologies[category].map((tech, i) => (
               <div key={i} className="tech-card">
-                <img src={tech.logo} alt={tech.name} className="tech-logo" />
+                <img src={tech.logo} alt={tech.name} className="tech-logo" loading="lazy" />
                 <h4>{tech.name}</h4>
               </div>
             ))}

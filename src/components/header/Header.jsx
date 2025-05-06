@@ -17,10 +17,8 @@ function Header() {
   };
   return (
     <header className="header-home">
-          <div className="logo-home">
-            <h2>
-              <span>&lt;/&gt;</span> TheITunited
-            </h2>
+          <div >
+            <img src="/public/IT UNITED.png" alt="logo" className="logo-home" loading="lazy"/>
           </div>
 
           <nav className="nav-links-home">
@@ -34,7 +32,7 @@ function Header() {
             >
                              <div className="dropdown-link-container">
 
-              <Link to="/about" className="dropdown-link">
+              <Link  className="dropdown-link">
                 COMPANY{" "}
                 {activeDropdown ? (
                   <ChevronUp className="arrow-icon" size={16} />
@@ -61,7 +59,7 @@ function Header() {
               onMouseLeave={handleMouseLeave}
             >
                <div className="dropdown-link-container">
-              <Link to="/service" className="dropdown-link">
+              <Link  className="dropdown-link">
                 SERVICES    {activeDropdown ? (
                   <ChevronUp className="arrow-icon" size={16} />
                 ) : (
@@ -72,10 +70,9 @@ function Header() {
 
               {activeDropdown === "service" && (
                 <div className="dropdown-menu">
-                  <Link to="/services/staff">Web Development</Link>
-                  <Link to="/service/mobile">Mobile Development</Link>
-                  <Link to="/service/seo">Digital Marketing</Link>
-                  <Link to="/service/cloud">Cloud Solutions</Link>
+                  <Link to="/services/webDev">Web Development</Link>
+                  <Link to="/services/mobileapp">Mobile Development</Link>
+                  <Link to="/services/cloudservice">Cloud Solutions</Link>
                   <Link to="/services/staff">Staff Augmentation</Link>
                 </div>
               )}
@@ -90,7 +87,7 @@ function Header() {
                 <FontAwesomeIcon icon={faPhone} className="phone-icon" />
                 <p>
                   Contact us today! <br />
-                  <strong>+91 645483747484</strong>
+                  <a href="tel:+917477075407">+91 7477075407</a>
                 </p>
               </li>
             </ul>

@@ -68,14 +68,14 @@ function Company() {
           </div>
         </div>
         <div className="image-container-company">
-          <img className="image1" src="/team1.jpg" alt="team1" />
-          <img className="image2" src="/team2.jpg" alt="team2" />
+          <img className="image1" src="/team1.jpg" alt="team1" loading="lazy" />
+          <img className="image2" src="/team2.jpg" alt="team2" loading="lazy" />
         </div>
       </div>
       {/* secound section of this page */}
       <div className="second-section">
         <div className="left-image-container">
-          <img src="/team2.jpg" alt="Trust" />
+          <img src="/team2.jpg" alt="Trust" loading="lazy" />
         </div>
         <div className="right-content-container">
           <h3>Works About</h3>

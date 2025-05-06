@@ -7,10 +7,12 @@ import Header from "./components/header/Header.jsx";
 import Footer from "./components/footer/Footer.jsx";
 
 createRoot(document.getElementById("root")).render(
+  
   <Router>
     <Header/>
-    <App />
+    <div className="app-wrapper">
+      <App />
+    </div>
     <Footer />
-
   </Router>
 );

@@ -1,6 +1,6 @@
 /* --- Your existing CSS + improved version --- */
 
-.staff-auggmentation-heading-container {
+.cloudService-heading-container {
   background: url("/public/workingteam.jpg") no-repeat center/cover;
   min-height: 50vh;
   display: flex;
@@ -19,14 +19,14 @@
 
 /* Content Container */
 /* Main Container */
-.staff-auggmentation-content-container {
+.cloudService-content-container {
   display: flex;
   align-items: flex-start;
   padding: 5rem;
 }
 
 /* Wrapper for Content */
-.staff-auggmentation-content-wrapper {
+.cloudService-content-wrapper {
   display: flex;
   justify-content: space-between;  /* Centers both left and right sections */
   gap: 2rem;                /* Adds space between left and right sides */
@@ -34,11 +34,11 @@
 }
 
 /* Left Side - Large Image with Text */
-.staff-auggmentation-left-side {
+.cloudService-left-side {
   flex: 7;
 }
 
-.staff-auggmentation-top-image img {
+.top-image img {
   width: 100%;
   border-radius: 8px;
   height: auto;
@@ -46,27 +46,27 @@
 }
 
 /* Text Section */
-.staff-auggmentation-text-section {
+.cloudService-text-section {
   line-height: 1.8;
   font-size: 1rem;
   color: white;
   letter-spacing: 2px;
 }
 
-.staff-auggmentation-text-section h3,
-.staff-auggmentation-text-section h4 {
+.cloudService-text-section h3,
+.cloudService-text-section h4 {
   margin-top: 2rem;
   margin-bottom: 1rem;
   color: #f39c12;
 }
 
-.staff-auggmentation-text-section ul,
-.staff-auggmentation-text-section ol {
+.cloudService-text-section ul,
+.cloudService-text-section ol {
   padding-left: 1.5rem;
 }
 
-.staff-auggmentation-text-section ul li,
-.staff-auggmentation-text-section ol li {
+.cloudService-text-section ul li,
+.cloudService-text-section ol li {
   margin-bottom: 0.5rem;
 }
 
@@ -74,13 +74,13 @@ strong{
   color: #f39c12;
 }
 
-.staff-auggmentation-cta-section {
+.cloudService-cta-section {
   margin-top: 1rem;
   text-align: left;
 }
 
 /* Right Side - Two Images */
-.staff-auggmentation-right-side {
+.cloudService-right-side {
   flex: 3.4;
   display: flex;
   flex-direction: column;
@@ -88,13 +88,13 @@ strong{
   height: fit-content;
 }
 
-.staff-auggmentation-right-top-image img,
-.staff-auggmentation-right-bottom-image img {
+.cloudService-right-top-image img,
+.cloudService-right-bottom-image img {
   width: 100%;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
-  max-height: 55vh;
+  max-height: 65vh;
   display: block;
 }
 
@@ -133,3 +133,5 @@ strong{
   margin-top: 0.5rem;
   font-weight: 500;
 }
+
+

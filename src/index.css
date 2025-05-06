@@ -1,5 +1,23 @@
-body{
+html, body, #root {
+  height: 100%;
   margin: 0;
-  background-color: #091650;
+  padding: 0;
+}
 
+body {
+  background-color: #091650;
+}
+
+/* Apply the flex layout to #root instead of body */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* This makes App take all remaining space between Header and Footer */
+.app-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }

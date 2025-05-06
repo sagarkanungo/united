@@ -38,7 +38,7 @@ function Home() {
             </p>
           </div>
           <div className="image-container">
-            <img src={image} alt="Empowering IT Projects" />
+            <img src={image} alt="Empowering IT Projects" loading="lazy" />
           </div>
         </div>
       </div>

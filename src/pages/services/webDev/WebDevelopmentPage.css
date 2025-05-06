@@ -1,0 +1,136 @@
+/* --- Your existing CSS + improved version --- */
+
+.webDevelopment-heading-container {
+    background: url("/public/workingteam.jpg") no-repeat center/cover;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.main-heading {
+    padding: 60px 0 0;     
+    text-align: center;     
+}
+
+/* Content Container */
+/* Main Container */
+.webDevelopment-content-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 5rem;
+  }
+  
+  /* Wrapper for Content */
+  .webDevelopment-content-wrapper {
+    display: flex;
+    justify-content: space-between;  /* Centers both left and right sections */
+    gap: 2rem;                /* Adds space between left and right sides */
+    width: 100%;
+  }
+  
+  /* Left Side - Large Image with Text */
+  .webDevelopment-left-side {
+    flex: 7;
+  }
+  
+  .top-image img {
+    width: 100%;
+    border-radius: 8px;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  
+  /* Text Section */
+  .webDevelopment-text-section {
+    line-height: 1.8;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 2px;
+  }
+  
+  .webDevelopment-text-section h3,
+  .webDevelopment-text-section h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #f39c12;
+  }
+  
+  .webDevelopment-text-section ul,
+  .webDevelopment-text-section ol {
+    padding-left: 1.5rem;
+  }
+  
+  .webDevelopment-text-section ul li,
+  .webDevelopment-text-section ol li {
+    margin-bottom: 0.5rem;
+  }
+
+  strong{
+    color: #f39c12;
+  }
+  
+  .webDevelopment-cta-section {
+    margin-top: 1rem;
+    text-align: left;
+  }
+  
+  /* Right Side - Two Images */
+  .webDevelopment-right-side {
+    flex: 3.4;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: fit-content;
+  }
+  
+  .webDevelopment-right-top-image img,
+  .webDevelopment-right-bottom-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    max-height: 65vh;
+    display: block;
+  }
+  
+  /* Slider Section */
+  .slider-container {
+    margin-top: 4rem;
+  }
+  
+  .slider-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .slider {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 1rem;
+  }
+  
+  .slider-item {
+    min-width: 250px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    text-align: center;
+  }
+  
+  .slider-item img {
+    width: 100%;
+    border-radius: 8px;
+    height: auto;
+  }
+  
+  .slider-item p {
+    margin-top: 0.5rem;
+    font-weight: 500;
+  }
+  

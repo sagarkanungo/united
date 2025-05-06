@@ -35,7 +35,7 @@ function WhyChooseUs() {
       {/* Second section */}
       <div className="why-choose-us-section">
         <div className="why-choose-us-image">
-          <img src="/team2.jpg" alt="Trust" />
+          <img src="/team2.jpg" alt="Trust" loading="lazy" />
         </div>
         <div className="why-choose-us-text">
           <div className="why-choose-us-mission">

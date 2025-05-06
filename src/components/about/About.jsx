@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import image from "../../assets/pexels-mikhail-nilov-7988079.jpg";
+import image from "../../assets/webdevelopmentimage1.jpg";
 import { BrainCircuit, Cog, Server, Users } from "lucide-react";
 
 function About() {
@@ -8,7 +8,7 @@ function About() {
     <>
       <div className="about-container">
         <div>
-          <img src={image} alt="image" />
+          <img src={image} alt="image" loading="lazy"/>
         </div>
         <div>
           <h1>

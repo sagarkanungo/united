@@ -23,12 +23,20 @@
 }
 
 /* Logo */
-.logo-home h2 {
-  font-size: 38px;
-  font-weight: bold;
-  color: white;
-  display: flex;
-  align-items: center;
+.logo-home {
+  width: 200px; /* Reduced from 300px for better scaling */
+  height: auto;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  
+  
+}
+
+/* Optional hover effect for interactivity */
+.logo-home:hover {
+  transform: scale(1.05);
 }
 
 .logo-home span {
@@ -145,9 +153,18 @@
 .contact-home p {
   color: white;
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  
 }
 
-.contact-home strong {
+.contact-home a {
   font-size: 20px;
   color: white;
+  font-weight: 700;
+  margin-top: 2px;
+  text-decoration: none;
 }
