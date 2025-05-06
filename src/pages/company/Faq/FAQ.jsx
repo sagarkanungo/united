@@ -6,8 +6,8 @@ const FAQ = () => {
 
   const faqs = [
     { 
-      question: 'What services does Innoscales offer?', 
-      answer: 'Innoscales offers IT consulting, software development, cloud solutions, and digital transformation services tailored to your business needs.' 
+      question: 'What services does theitunited offer?', 
+      answer: 'theitunited offers IT consulting, software development, cloud solutions, and digital transformation services tailored to your business needs.' 
     },
     { 
       question: 'How can I get a free consultation?', 

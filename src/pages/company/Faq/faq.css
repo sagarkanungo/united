@@ -129,12 +129,45 @@
     .faq-container {
       flex-direction: column;
       padding: 30px;
+      height: auto;
     }
   
     .faq-left, .faq-right {
+      width: 100% !important;
+      min-width: unset !important;
+      flex: unset !important;
+    }
+  
+    .faq-left {
+      align-items: flex-start;
+      text-align: left;
+    }
+  
+    .faq-right {
+      gap: 16px;
       width: 100%;
     }
+  
+    .faq-item {
+      width: 100%;
+    }
+  
+    .faq-question {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .faq-question h3, 
+    .faq-question span {
+      font-size: 20px;
+    }
+  
+    .faq-answer {
+      font-size: 16px;
+    }
   }
+  
   
   /* ======= FADE-IN ANIMATION ======= */
   @keyframes fadeIn {

@@ -25,10 +25,10 @@ function WebDevelopmentPage() {
 
             {/* Main Text Content */}
             <div className="webDevelopment-text-section">
-              <h3>Web Development Services by InnoScales</h3>
+              <h3>Web Development Services by theitunited</h3>
               <p>
                 In today’s digital-first world, your website is often the first
-                impression your business makes. At InnoScales, we specialize in
+                impression your business makes. At theitunited, we specialize in
                 creating custom, scalable, and user-friendly websites that
                 reflect your brand’s identity and drive measurable results. From
                 startups to enterprises, we craft tailored web solutions that
@@ -41,10 +41,10 @@ function WebDevelopmentPage() {
                 not only visually stunning but also optimized for performance,
                 functionality, and scalability. Whether you need a robust
                 e-commerce platform, a corporate website, or a feature-rich web
-                application, InnoScales has you covered.
+                application, theitunited has you covered.
               </p>
 
-              <h4>Why Choose InnoScales</h4>
+              <h4>Why Choose theitunited</h4>
               <ul>
                 <li>Expert Web Development Solutions for Business Growth</li>
                 <li>Building Robust, Scalable, and Custom Websites</li>
@@ -54,7 +54,7 @@ function WebDevelopmentPage() {
 
               <h4>Technologies We Use</h4>
               <p>
-                At InnoScales, we work with a wide range of cutting-edge
+                At theitunited, we work with a wide range of cutting-edge
                 technologies and frameworks to deliver high-performing web
                 solutions. Our expertise includes:
               </p>
@@ -127,7 +127,7 @@ function WebDevelopmentPage() {
               </ul>
 
               <h4>
-                Benefits of Partnering with InnoScales for Web Development
+                Benefits of Partnering with theitunited for Web Development
               </h4>
 
               <ul>
@@ -196,7 +196,7 @@ function WebDevelopmentPage() {
               <div className="webDevelopment-cta-section">
                 <h3>Let’s Build Your Dream Website</h3>
                 <p>
-                  Ready to create a powerful online presence? Contact InnoScales
+                  Ready to create a powerful online presence? Contact theitunited
                   today to discuss your web development needs. Our team is
                   dedicated to delivering exceptional websites that align with
                   your vision and drive your business forward.

@@ -82,3 +82,21 @@
     }
   }
   
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: flex-start;   /* Align all sections to the left */
+      text-align: left;          /* Ensure text is left-aligned */
+      padding: 40px 20px;        /* Reduce padding for small screens */
+      gap: 30px;                 /* Add spacing between stacked items */
+    }
+  
+    .footer-section {
+      min-width: 100%;
+    }
+  
+    .contact-info .contact-item {
+      justify-content: flex-start; /* Align contact info to the left */
+    }
+  }
+  

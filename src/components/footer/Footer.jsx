@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-section">
           <h3 className="footer-title">Company Name</h3>
-          <p>© 2025 Innoscales. All Rights Reserved.</p>
+          <p>© 2025 theitunited. All Rights Reserved.</p>
         </div>
 
         <div className="footer-section">
@@ -35,6 +35,11 @@ const Footer = () => {
 
         <div className="footer-section contact-info">
           <h3 className="footer-title">Contact Info</h3>
+          
+          <div className="contact-item">
+            <MapPin size={18} />
+            <span>India Address- Tulsiayana Residency, Nepania </span>
+          </div>
           <div className="contact-item">
             <MapPin size={18} />
             <span>Orangeboom street, Mariakerke, ghent Belgium </span>
@@ -45,7 +50,7 @@ const Footer = () => {
           </div>
           {/* <div className="contact-item">
           <Mail size={18} /> 
-          <span>hr@innoscales.com</span>
+          <span>hr@theitunited.com</span>
         </div> */}
           <div className="contact-item">
             <Phone size={18} />

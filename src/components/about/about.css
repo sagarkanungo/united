@@ -176,3 +176,51 @@
         margin-top: 20px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .about-container div {
+      margin-bottom: 20px;
+    }
+  
+    .about-container img {
+      width: 100%;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  
+    .left-side-content {
+      margin-left: 0;
+      align-items: center;
+      text-align: center;
+      min-height: auto;
+    }
+  
+    .card-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+  
+    .card-column-left,
+    .card-column-right {
+      width: 100%;
+      transform: none;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+      min-height: 220px;
+      padding: 20px;
+    }
+  }
+  

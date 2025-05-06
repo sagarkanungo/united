@@ -168,3 +168,58 @@
   margin-top: 2px;
   text-decoration: none;
 }
+
+/* Hide desktop nav on small screens */
+.desktop-nav {
+  display: flex;
+}
+
+.hamburger-icon {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile menu */
+.mobile-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px;
+  z-index: 99;
+}
+
+.mobile-menu a {
+  padding: 10px 0;
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Responsive settings */
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: block;
+  }
+
+  .contact-sec-home {
+    display: none; /* Optional: hide phone info on mobile */
+  }
+
+  .header-home {
+    padding: 15px 20px;
+    backdrop-filter: blur(10px);
+  }
+}
+
+

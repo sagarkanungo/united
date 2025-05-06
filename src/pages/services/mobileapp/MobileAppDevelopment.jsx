@@ -25,7 +25,7 @@ const MobileAppDevelopment = () => {
             <div className="mobile-development-text-section">
               <h3>Custom App Development Services</h3>
               <p>
-                At Innoscales, we specialize in delivering custom app
+                At theitunited, we specialize in delivering custom app
                 development services that drive business growth and enhance
                 customer engagement. Whether you’re a startup, SME, or an
                 enterprise, our team of experienced developers and designers
@@ -41,12 +41,12 @@ const MobileAppDevelopment = () => {
               </p>
               <br></br>
               <p>
-                Partner with Innoscales for innovative app solutions built with
+                Partner with theitunited for innovative app solutions built with
                 the latest tools and technologies to ensure success in today’s
                 competitive digital landscape.
               </p>
 
-              <h4>Why Choose Innoscales for App Development?</h4>
+              <h4>Why Choose theitunited for App Development?</h4>
               <ul>
                 <li>
                   <strong>Expertise in Latest Technologies:</strong>
@@ -159,7 +159,7 @@ const MobileAppDevelopment = () => {
                 </li>
               </ul>
 
-              <h4>Benefits of Working with Innoscales</h4>
+              <h4>Benefits of Working with theitunited</h4>
               <ul>
                 <li>
                   <strong>Faster Time to Market:</strong>
@@ -178,7 +178,7 @@ const MobileAppDevelopment = () => {
               <p>
                 Ready to transform your ideas into reality? Whether you’re
                 looking to create a feature-rich mobile app, a scalable web
-                solution, or a custom enterprise platform, Innoscales is here to
+                solution, or a custom enterprise platform, theitunited is here to
                 make it happen.
               </p>
               <p>

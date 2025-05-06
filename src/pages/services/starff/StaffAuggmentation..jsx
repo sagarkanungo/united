@@ -19,9 +19,9 @@ const StaffAugmentation = () => {
             </div>
 
             <div className="staff-auggmentation-text-section">
-              <h3>Staff Augmentation Services by InnoScales</h3>
+              <h3>Staff Augmentation Services by theitunited</h3>
               <p>
-                InnoScales offers expert staff augmentation services to help
+                theitunited offers expert staff augmentation services to help
                 businesses scale their workforce with highly skilled
                 professionals for both short-term and long-term needs. Whether
                 you’re dealing with a sudden increase in workload, need
@@ -39,7 +39,7 @@ const StaffAugmentation = () => {
                 to drive project success and business growth.
               </p>
 
-              <h4>Why Choose InnoScales for Staff Augmentation?</h4>
+              <h4>Why Choose theitunited for Staff Augmentation?</h4>
               <ul>
                 <li>
                   <strong>Top IT Talent Access:</strong> Gain access to the best
@@ -164,7 +164,7 @@ const StaffAugmentation = () => {
               <h4>Let’s Scale Your Team Together</h4>
               <p>
                 Ready to scale your team with the best talent? Contact
-                InnoScales today to discuss your staff augmentation needs. Our
+                theitunited today to discuss your staff augmentation needs. Our
                 experts will work with you to find the ideal solution that meets
                 your project requirements, timelines, and budget. We provide
                 highly qualified professionals who are ready to integrate into

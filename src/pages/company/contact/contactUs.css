@@ -22,7 +22,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding: 60px;
     color: #ffffff;
     min-height: 100vh;
   }
@@ -181,5 +180,7 @@
     .tabs-container {
       width: 100%;
     }
+
+    
   }
   
