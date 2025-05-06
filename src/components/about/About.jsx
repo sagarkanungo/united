@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import image from "../../assets/webdevelopmentimage1.jpg";
+import image from "../../../public/assets/webdevelopmentimage1.jpg";
 import { BrainCircuit, Cog, Server, Users } from "lucide-react";
 
 function About() {

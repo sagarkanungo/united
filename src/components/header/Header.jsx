@@ -18,7 +18,7 @@ function Header() {
   return (
     <header className="header-home">
           <div >
-            <img src="/public/IT UNITED.png" alt="logo" className="logo-home" loading="lazy"/>
+            <img src="/IT UNITED.png" alt="logo" className="logo-home" loading="lazy"/>
           </div>
 
           <nav className="nav-links-home">

@@ -3,7 +3,7 @@ import "./home.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import image from "../../assets/cyberjet-banner-pic-2.png";
+import image from "../../../public/assets/cyberjet-banner-pic-2.png";
 import About from "../about/About";
 import Process from "../process/Process";
 import Services from "../services/Service";

@@ -15,7 +15,7 @@ const StaffAugmentation = () => {
           {/* Left Side - Main Content */}
           <div className="staff-auggmentation-left-side">
             <div className="staff-auggmentation-top-image">
-              <img src="/src/assets/staff1.jpg" alt="Staff Augmentation" loading="lazy" />
+              <img src="/assets/staff1.jpg" alt="Staff Augmentation" loading="lazy" />
             </div>
 
             <div className="staff-auggmentation-text-section">
@@ -176,10 +176,10 @@ const StaffAugmentation = () => {
           {/* Right Side Images */}
           <div className="staff-auggmentation-right-side">
             <div className="staff-auggmentation-right-top-image">
-              <img src="/src/assets/staff2.jpg" alt="Staff Augmentation" loading="lazy" />
+              <img src="/assets/staff2.jpg" alt="Staff Augmentation" loading="lazy" />
             </div>
             <div className="staff-auggmentation-right-bottom-image">
-              <img src="/src/assets/staff3.jpg" alt="Staff Augmentation" loading="lazy" />
+              <img src="/assets/staff3.jpg" alt="Staff Augmentation" loading="lazy" />
             </div>
           </div>
         </div>

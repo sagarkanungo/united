@@ -16,7 +16,7 @@ const MobileAppDevelopment = () => {
           <div className="mobile-development-left-side">
             <div className="top-image">
               <img
-                src="/src/assets/mobile-development1.jpg"
+                src="/assets/mobile-development1.jpg"
                 alt="Cloud Services"
                 loading="lazy"
               />
@@ -193,14 +193,14 @@ const MobileAppDevelopment = () => {
           <div className="mobile-development-right-side">
             <div className="mobile-development-right-top-image">
               <img
-                src="/src/assets/mobile-development2.jpg"
+                src="/assets/mobile-development2.jpg"
                 alt="Cloud Strategy"
                 loading="lazy"
               />
             </div>
             <div className="mobile-development-right-bottom-image">
               <img
-                src="/src/assets/mobile-development3.jpg"
+                src="/assets/mobile-development3.jpg"
                 alt="Cloud Management"
                 loading="lazy"
               />

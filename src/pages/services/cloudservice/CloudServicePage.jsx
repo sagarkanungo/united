@@ -20,7 +20,7 @@ function CloudServicePage() {
           <div className="cloudService-left-side">
             <div className="top-image">
               <img
-                src="/src/assets/cloudservice1.jpg"
+                src="/assets/cloudservice1.jpg"
                 alt="Cloud Services"
                 loading="lazy"
                 onLoad={setLoading(true)}
@@ -149,14 +149,14 @@ function CloudServicePage() {
           <div className="cloudService-right-side">
             <div className="cloudService-right-top-image">
               <img
-                src="/src/assets/cloudservice2.jpg"
+                src="/assets/cloudservice2.jpg"
                 alt="Cloud Strategy"
                 loading="lazy"
               />
             </div>
             <div className="cloudService-right-bottom-image">
               <img
-                src="/src/assets/cloudservice3.jpg"
+                src="/assets/cloudservice3.jpg"
                 alt="Cloud Management"
                 loading="lazy"
               />

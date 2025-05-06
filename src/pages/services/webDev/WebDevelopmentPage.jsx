@@ -17,7 +17,7 @@ function WebDevelopmentPage() {
           <div className="webDevelopment-left-side">
             <div className="top-image">
               <img
-                src="/src/assets/webdevelopmentimage1.jpg"
+                src="/assets/webdevelopmentimage1.jpg"
                 alt="Web Development"
                 loading="lazy"
               />
@@ -209,14 +209,14 @@ function WebDevelopmentPage() {
           <div className="webDevelopment-right-side">
             <div className="webDevelopment-right-top-image">
               <img
-                src="/src/assets/webdevelopmentimage2.jpg"
+                src="/assets/webdevelopmentimage2.jpg"
                 alt="Image 1"
                 loading="lazy"
               />
             </div>
             <div className="webDevelopment-right-bottom-image">
               <img
-                src="/src/assets/webdevelopmentimage3.jpg"
+                src="/assets/webdevelopmentimage3.jpg"
                 alt="Image 2"
                 loading="lazy"
               />
