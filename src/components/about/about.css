@@ -146,21 +146,7 @@
 
 
 /* Responsive Design */
-@media screen and (max-width: 1024px) {
-    .card-container {
-        flex-direction: column;
-        gap: 20px;
-    }
 
-    .card-column-left, .card-column-right {
-        width: 100%;
-        margin-top: 0;
-    }
-
-    .card {
-        min-height: 250px;
-    }
-}
 
 
 
@@ -169,12 +155,41 @@
     .about-container {
         flex-direction: column;
         text-align: center;
+        padding: 30px 23px;
     }
 
     .about-container img {
-        max-width: 350px;
+        max-width: 750px;
         margin-top: 20px;
     }
+    .about-container p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        max-width: 765px;
+        text-align: center;
+    }
+    .left-side-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        min-height: 100vh;
+        margin-left: 40px;
+    }
+  .card-column-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 42%;
+}
+.card-column-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 42%;
+    margin-left: 70px;
+}
 }
 
 @media screen and (max-width: 768px) {

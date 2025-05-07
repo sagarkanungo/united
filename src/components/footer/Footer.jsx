@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-section">
           <h3 className="footer-title">Company Name</h3>
-          <p>© 2025 theitunited. All Rights Reserved.</p>
+          <p>© 2025 TheItUnited. All Rights Reserved.</p>
         </div>
 
         <div className="footer-section">
@@ -42,15 +42,15 @@ const Footer = () => {
           </div>
           <div className="contact-item">
             <MapPin size={18} />
-            <span>Orangeboom street, Mariakerke, ghent Belgium </span>
+            <span>Belgium Address- Orangeboom street, Mariakerke, ghent Belgium </span>
           </div>
           <div className="contact-item">
             <Mail size={18} />
-            <span>theitunited@gmail.com</span>
+            <span>TheItUnited@gmail.com</span>
           </div>
           {/* <div className="contact-item">
           <Mail size={18} /> 
-          <span>hr@theitunited.com</span>
+          <span>hr@TheItUnited.com</span>
         </div> */}
           <div className="contact-item">
             <Phone size={18} />

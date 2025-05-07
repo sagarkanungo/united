@@ -133,3 +133,22 @@ strong{
   margin-top: 0.5rem;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .staff-auggmentation-content-wrapper {
+    flex-direction: column;
+    }
+    .staff-auggmentation-content-container {
+      align-items: center;
+      padding: 1rem;
+  }
+  }
+  @media (min-width: 769px) and (max-width: 1368px) {
+    .staff-auggmentation-content-wrapper {
+      flex-direction: column;
+      }
+      .staff-auggmentation-content-container {
+        align-items: center;
+        padding: 1rem;
+    }
+  }

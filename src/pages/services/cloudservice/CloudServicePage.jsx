@@ -28,11 +28,11 @@ function CloudServicePage() {
             </div>
 
             <div className="cloudService-text-section">
-              <h3>Cloud Services to Elevate Your Business by theitunited</h3>
+              <h3>Cloud Services to Elevate Your Business by TheItUnited</h3>
               <p>
                 In today’s fast-evolving digital landscape, cloud computing has
                 become the backbone of modern business operations. At
-                theitunited, we offer comprehensive cloud services designed to
+                TheItUnited, we offer comprehensive cloud services designed to
                 accelerate your digital transformation, enhance scalability, and
                 optimize costs. Whether you’re a startup or an established
                 enterprise, our tailored cloud solutions empower your business
@@ -42,12 +42,12 @@ function CloudServicePage() {
                 Utilizing leading technologies such as AWS, Microsoft Azure, and
                 Google Cloud, we help businesses enhance productivity, drive
                 innovation, and ensure data security. With services in cloud
-                migration, management, and disaster recovery, theitunited ensures
+                migration, management, and disaster recovery, TheItUnited ensures
                 your data is always secure, accessible, and optimized for
                 growth.
               </p>
               <p>
-                Trust theitunited for cloud solutions that scale with your
+                Trust TheItUnited for cloud solutions that scale with your
                 business for long-term success and efficiency.
               </p>
 
@@ -93,7 +93,7 @@ function CloudServicePage() {
 
               <h4>Technologies We Leverage for Cloud Services</h4>
               <p>
-                At theitunited, we work with leading cloud platforms and tools to
+                At TheItUnited, we work with leading cloud platforms and tools to
                 deliver reliable and scalable solutions:
               </p>
               <ul>
@@ -137,7 +137,7 @@ function CloudServicePage() {
               <div className="cloudService-cta-section">
                 <h3>Ready to Embrace the Cloud?</h3>
                 <p>
-                  Partner with theitunited and unlock the full potential of
+                  Partner with TheItUnited and unlock the full potential of
                   cloud computing. Reach out to our experts to discuss how our
                   cloud services can transform your business.
                 </p>

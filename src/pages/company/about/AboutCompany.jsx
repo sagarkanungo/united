@@ -84,7 +84,7 @@ function Company() {
           </h2>
           <p>
             <br />
-            At theitunited, we take pride in earning the trust of clients
+            At TheItUnited, we take pride in earning the trust of clients
             worldwide by delivering innovative IT solutions and exceptional
             staff augmentation services. Our commitment to quality, reliability,
             and tailored solutions helps businesses thrive in today’s

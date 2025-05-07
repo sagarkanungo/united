@@ -56,10 +56,11 @@ const ContactUs = () => {
             {activeTab === "address" ? (
               <div className="address-content">
                 <h3>Our Location</h3>
-                <p>Orangeboom street, Mariakerke, ghent Belgium </p>
+                <p>India Address- Tulsiayana Residency, Nepania</p>
+               <p>Belgium Address- Orangeboom street, Mariakerke, ghent Belgium</p>
 
                 <h3>Send Us Mail</h3>
-                <p>theitunited@gmail.com</p>
+                <p>TheItUnited@gmail.com</p>
 
                 <h3>Call Us</h3>
                 <p>+91 7477075407</p>

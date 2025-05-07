@@ -15,7 +15,7 @@ function About() {
             Supporting IT Companies in Scaling Engineering Teams Seamlessly
           </h1>
           <p>
-            At theitunited, we specialize in empowering IT companies to
+            At TheItUnited, we specialize in empowering IT companies to
             seamlessly scale their engineering teams through tailored solutions.
             Whether you're tackling complex IT projects or need expert staff
             augmentation, we deliver the right talent and technology to meet

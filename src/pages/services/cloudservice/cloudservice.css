@@ -134,4 +134,23 @@ strong{
   font-weight: 500;
 }
 
+@media (max-width: 768px) {
+  .cloudService-content-wrapper {
+    flex-direction: column;
+    }
+    .cloudService-content-container {
+      align-items: center;
+      padding: 1rem;
+  }
+  }
+
+  @media (min-width: 769px) and (max-width: 1368px) {
+    .cloudService-content-wrapper {
+      flex-direction: column;
+      }
+      .cloudService-content-container {
+        align-items: center;
+        padding: 1rem;
+    }
+  }
 
