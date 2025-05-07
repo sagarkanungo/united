@@ -156,6 +156,7 @@
         flex-direction: column;
         text-align: center;
         padding: 30px 23px;
+        min-height: 40vh;
     }
 
     .about-container img {
@@ -165,16 +166,15 @@
     .about-container p {
         font-size: 1.1rem;
         line-height: 1.6;
-        max-width: 765px;
+        max-width: 965px;
         text-align: center;
     }
     .left-side-content {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         text-align: left;
-        min-height: 100vh;
+        min-height: 10vh;
         margin-left: 40px;
     }
   .card-column-right {
