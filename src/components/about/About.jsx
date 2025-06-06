@@ -41,7 +41,7 @@ function About() {
       </div>
       <div className="about-container">
         <div className="left-side-content">
-          <h1>Why Chouse Us?</h1>
+          <h1>Why Choose Us?</h1>
           <h1>
             Empowering Your Business with <br></br>IT Innovation and Workforce
             Flexibility
